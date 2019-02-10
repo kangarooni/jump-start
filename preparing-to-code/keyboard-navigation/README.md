@@ -18,10 +18,10 @@ Fill in the table below with the matching macOS shortcuts, if you don't know the
 
 | What the command does | Mac shortcut |
 | :--- | :--- |
-| Copy | Command C |
-| Paste | Command V |
-| Cut |Command X|
-| Save |Command S |
+| Copy | Cmd C |
+| Paste | Cmd V |
+| Cut |Cmd X|
+| Save |Cmd S |
 | Select | Cmd A |
 | Undo |Cmd Z|
 | Redo | Cmd Y|
@@ -30,7 +30,7 @@ Fill in the table below with the matching macOS shortcuts, if you don't know the
 | Open spotlight search | Cmd Space |
 | Force quit | Cmd Q|
 | Full-screen screen shot |  Ctrl shift 3|
-| User-defined region screen shot | Ctril shift 4 |
+| User-defined region screen shot | Ctrl shift 4 |
 
 ## macOS overview
 
