@@ -139,21 +139,21 @@ i = 1.5
 | `d - f` |5.0|F|
 | `g - e` |9.0|F|
 | `(h + i) - f` |2.5|F|
-| `(d - f) + e` |8|13.0|
-| `d * f` | | | |
-| `g * i` | | | |
-| `f * g` | | | |
-| `d / f` | | | |
-| `d / e` | | | |
-| `e / f` | | | |
-| `(g * f) / f` | | | |
-| `(d / f) * e` | | | |
-| `21 / 5` | | | |
-| 14 / 5 | | | |
-| 10 % 3 | | | |
-| 20 % 2 | | | |
-| 4 % 5 | | | |
-| 8 % 1 | | | |
+| `(d - f) + e` |13.0|F|
+| `d * f` |20|I| |
+| `g * i` |16.5|F| |
+| `f * g` |22.0|F| |
+| `d / f` |5|I| |
+| `d / e` |2.0|F| |
+| `e / f` |2.5|F| |
+| `(g * f) / f` |11.0|F| |
+| `(d / f) * e` |25.0|F| |
+| `21 / 5` |4.2|F| |
+| 14 / 5 |2.8|F| |
+| 10 % 3 |1|I| |
+| 20 % 2 |0|I| |
+| 4 % 5 |0|I| |
+| 8 % 1 |0|I| |
 
 ## String practice
 Determine the output for each of the following problems on your own and then check your answer using `irb`
@@ -163,51 +163,79 @@ Determine the output for each of the following problems on your own and then che
 my_string = "I love Seattle"
 my_string.slice(7)
 
+## S
+
 # problem 2
 my_string = "I love Seattle"
 my_string.slice(2, 4)
+
+##love
 
 # problem 3
 my_string = "I love Seattle"
 my_string.slice("Seattle")
 
+##nil
+
 # problem 4
 my_string = "Ada"
 my_string += " Lovelace"
+
+## Ada Lovelace
 
 # problem 5
 my_string = "Ada"
 my_string << " codes" << " it!"
 
+## Ada codes it!
+
 # problem 6
 my_string = "Ada"
 my_string.concat(" likes to code").slice(4...9)
+
+## Ada likes to code
+## likes
 
 # problem 7
 my_string = "Hello world"
 "Goodbye " + my_string.slice(6, 5) << "!"
 
+## Goodbye world
+
 # problem 8
 my_string = "Hello world!"
 my_string.slice(0...5).concat(", goodbye!")
+
+## Hello, goodbye!
 
 # problem 9
 my_string = "Hello world!"
 my_string.slice(0) << "i" + "!"
 
+## Hi!
+
 # problem 10
 my_string = "I love Ruby"
 my_string.slice(7, 4).concat(my_string.slice(2..5)) + my_string.slice(0)
+
+## Ruby love I
 
 # problem 11
 my_string = "I love Ruby"
 my_string.slice(7, 4).concat(my_string.slice(2...6)) + my_string.slice(0)
 
+## Ruby love I
+
 # problem 12
 my_string = "I love Ruby"
 "R".concat(my_string.slice(8, 3) + " rocks!")
 
+## Ruby rocks!
+
 # problem 13
 my_string = "I love Ruby"
 my_string.slice(2, 4) << my_string.slice(7...11).concat(my_string.slice(2...6))
+
+## love Ruby love
+
 ```
