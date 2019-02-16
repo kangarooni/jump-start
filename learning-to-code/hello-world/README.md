@@ -22,3 +22,5 @@ A _Hello World_ program is the first program that people often write when explor
 		5. In terminal type `ruby hello_world.rb` and press [enter]
 * Reflect on the steps you completed, and try them a few more times without referencing the instructions to practice
 * Using `irb` and from researching online, understand the difference between `print` and `puts` methods in Ruby.
+
+'puts' enters a new line after text displayed; 'prints' does not have a new line
