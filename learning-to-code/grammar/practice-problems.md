@@ -225,6 +225,7 @@ my_string = "I love Ruby"
 my_string.slice(7, 4).concat(my_string.slice(2...6)) + my_string.slice(0)
 
 ## Ruby love I
+### three dots is noninclusive of last
 
 # problem 12
 my_string = "I love Ruby"
