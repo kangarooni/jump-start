@@ -1,0 +1,44 @@
+Comments, Data types, Mathematical operators, Keyboard input, Strings
+
+#Numbers Problem Assignment
+
+puts "Please enter a positive integer."
+value1= gets.chomp
+
+puts "Please enter another positive integer."
+value2= gets.chomp
+
+puts "One more time."
+value3= gets.chomp
+
+puts "Twenty added to the numbers you entered gives us #{value1.to_i+20},#{value2.to_i+20} and #{value3.to_i+20}."
+
+puts "Program over"
+#end
+
+#MadLib Assignment
+
+puts "Welcome to the Wonderful World of MadLibs. We need some user participation to play this game. Lets go ahead and kick things off. Please enter"
+
+puts "Please enter an animal"
+animal= gets.chomp
+puts "Please enter a celebrity name"
+celeb=gets.chomp
+puts "Please enter an adjective"
+adjective1=gets.chomp
+puts "Please enter another adjective"
+adjective2=gets.chomp
+puts "Now enter a name."
+name=gets.chomp
+puts "Enter a number"
+degrees=gets.chomp
+puts "Now enter a noun"
+noun1=gets.chomp
+puts "Please enter a past tense verb"
+verb1=gets.chomp
+puts "And another past tense verb (we're almost there)"
+verb2=gets.chomp
+puts "Last one. Past tense verb"
+verb3=gets.chomp
+
+puts "The other day I was walking my #{animal} when #{celeb} walked past carrying a #{adjective1} #{noun1}, which was weird because it was #{degrees} degrees oustide. #{celeb} #{verb1}, so I #{verb2} to get a better look and confirm the identity. My #{animal} was so #{adjective2} that he #{verb3}. Poor #{name}."
