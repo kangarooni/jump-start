@@ -18,6 +18,8 @@ print(x+y) #=> 11
   puts "dance"
 end
 ```
+dance
+dance
 
 2.
 ```ruby
@@ -25,6 +27,16 @@ end
   puts i
 end
 ```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
 
 3.
 ```ruby
@@ -34,18 +46,34 @@ end
 puts "fun!"
 ```
 
+coding!
+coding!
+coding!
+fun!
+
 4.
 ```ruby
 5.times do |x|
   puts "#{x} chicken(s)"
 end
 ```
+1 chicken(s)
+2 chicken(s)
+..
+5 chicken(s)
 
 5.
 ```ruby
 10.times do |i|
   puts i * i
 end
+
+0
+1
+4
+9
+...
+81
 
 ```
 
@@ -55,6 +83,11 @@ end
   puts "hello!"
 end
 ```
+hello!
+hello!
+hello!
+hello!
+hello!
 
 7.
 ```ruby
@@ -62,6 +95,9 @@ end
   puts "#{i} animals(s)"
 end
 ```
+1 animals(s)
+2 animals(s)
+3 animals(s)
 
 8.
 ```ruby
@@ -69,6 +105,9 @@ end
   puts i * i
 end
 ```
+1
+4
+9
 
 9.
 ```ruby
@@ -80,6 +119,8 @@ end
 
 puts total
 ```
+[1 + 2 + 3 =] 6
+
 
 10.
 ```ruby
@@ -90,6 +131,8 @@ puts total
 end
 ```
 
+"You got a winner!"
+
 11.
 ```ruby
 i = 0
@@ -99,6 +142,9 @@ while i < 3
   i = i + 1
 end
 ```
+hi
+hi
+hi
 
 12.
 ```ruby
@@ -111,6 +157,10 @@ end
 
 puts "bye"
 ```
+hi
+hi
+hi
+bye
 
 13.
 ```ruby
@@ -121,6 +171,11 @@ while i < 3
   puts i
 end
 ```
+
+1
+2
+3
+
 
 14.
 ```ruby
@@ -134,6 +189,11 @@ end
 
 puts x
 ```
+[6/1
+7/2
+8/3]
+
+8
 
 15.
 ```ruby
@@ -144,6 +204,9 @@ while i > 0
   i = i - 1
 end
 ```
+ada!
+ada!
+ada!
 
 16.
 ```ruby
@@ -154,6 +217,8 @@ while i
 end
 ```
 
+infinite "a while"
+
 17.
 ```ruby
 i = 1
@@ -163,5 +228,6 @@ while i < 100
   i = i * 100
 end
 ```
+o hai
 
 **When you are complete with all of these problems, you can check your answers against the [answer key](../assignments/loops-worksheet-answers.md).**
