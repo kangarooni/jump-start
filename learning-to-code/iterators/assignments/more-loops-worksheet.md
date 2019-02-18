@@ -21,6 +21,9 @@ cars.each do |car|
   puts car
 end
 ```
+old
+new
+used
 
 2.
 ```ruby
@@ -30,6 +33,10 @@ fruits.each do |fruit|
 end
 ```
 
+I love banana!
+I love apple!
+I love kiwi!
+
 3.
 ```ruby
 values = [8, 5, 3, 10, 14, 2]
@@ -37,6 +44,12 @@ values.each do |value|
   puts value
 end
 ```
+8
+5
+3
+10
+14
+2
 
 4.
 ```ruby
@@ -50,6 +63,12 @@ end
 puts total
 ```
 
+[4
+10
+12
+20]
+31
+
 5.
 ```ruby
 values = [8, 5, 3, 10, 14, 2]
@@ -61,6 +80,15 @@ values.each do |value|
   end
 end
 ```
+Regular values like 8
+Regular values like 5
+Regular values like 3
+Special case!
+Regular values like 14
+Regular values like 2
+
+
+
 
 
 **When you are complete with all of these problems, you can check your answers against the [answer key](../assignments/more-loops-worksheet-answers.md).**
