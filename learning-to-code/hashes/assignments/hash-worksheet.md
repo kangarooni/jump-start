@@ -22,8 +22,8 @@ person = {
   "nickname" => "adie"
 }
 
-puts person.length
-puts person["last_name"]
+puts person.length # 3
+puts person["last_name"] #lovelace
 ```
 
 2.
@@ -34,8 +34,8 @@ animals = {
 }
 
 animals["cat"] = "feline"
-puts animals["dog"]
-puts animals["donkey"]
+puts animals["dog"] #canine
+puts animals["donkey"] #nil
 ```
 
 3.
@@ -47,7 +47,7 @@ workout_summary = {
 }
 
 workout_summary["lunges"] = 101
-puts workout_summary["lunges"]
+puts workout_summary["lunges"] #101
 ```
 
 4.
@@ -56,9 +56,9 @@ menu = {}
 menu["ramen"] = "garlic tonkotsu"
 menu["burger"] = "bleu sun"
 menu["tea"] = "green"
-puts menu.length
-puts menu["burger"]
-puts menu["tater_tots"]
+puts menu.length #3
+puts menu["burger"] #bleu sun 
+puts menu["tater_tots"] #nil
 ```
 
 Hash problems with hashes using symbol notation:
@@ -71,8 +71,8 @@ person = {
   nickname: "adie"
 }
 
-puts person.length
-puts person[:last_name]
+puts person.length #3
+puts person[:last_name] #lovelace
 ```
 
 6.
@@ -84,9 +84,10 @@ human_being = {
   meaning: "wise man"
 }
 
-puts human_being.length
+puts human_being.length #4
 puts "The only living species of genus #{human_being[:genus]} are #{human_being[:species]}."
-puts human_being[:meaning].length
+# The only living species of genu Homo are Sapiens
+puts human_being[:meaning].length #3
 ```
 
 7.
@@ -99,7 +100,7 @@ oatmeal_raisin = {
   allergens: "nuts"
 }
 
-puts oatmeal_raisin.length
+puts oatmeal_raisin.length #5
 
 if oatmeal_raisin[:dairy_free]
   puts "Oatmeal raisin cookies are dairy free."
@@ -111,4 +112,6 @@ puts oatmeal_raisin[:allergens]
 if !oatmeal_raisin[:gluten_free] || !oatmeal_raisin[:vegan]
   puts "The oatmeal raisin cookie is either not gluten free or not vegan."
 end
+
+Oatmeal raisin cookies are dairy free.
 ```
